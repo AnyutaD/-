@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Создание мероприятия</title>
+</head>
+<body>
+  <h1>Создание мероприятия</h1>
+  <form action="/create_event" method="POST">
+    <label for="title">Название мероприятия:</label>
+    <input type="text" name="title" id="title">
+    <br>
+    <label for="date">Дата мероприятия:</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <label for="time">Время мероприятия:</label>
+    <input type="time" name="time" id="time">
+    <br>
+    <label for="location">Место проведения мероприятия:</label>
+    <input type="text" name="location" id="location">
+    <br>
+    <label for="description">Описание мероприятия:</label>
+    <textarea name="description" id="description"></textarea>
+    <br>
+    <input type="submit" value="Создать">
+  </form>
+</body>
+</html>
